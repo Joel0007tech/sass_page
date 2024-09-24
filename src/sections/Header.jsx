@@ -66,7 +66,7 @@ const Header = () => {
                     spy
                     smooth
                     className={clsx(
-                      "max-lg:hidden block transition-transform duration-500 cursor-pointer",
+                      "max-lg:hidden transition-transform duration-500 cursor-pointer",
                     )}
                   >
                     <img
@@ -84,15 +84,17 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
+
             <div
-              className="max-lg:hidden block absolute top-1/2 w-[960px] h[380px] translate-x-[-290px]
-            translate-y-1/2 rotate-90"
+              className="lg:hidden block absolute top-1/2 left-o
+              w-[960px] h-[380px] translate-x-[-290px]
+            -translate-y-1/2 rotate-90"
             >
               <img
                 src="/src/images/bg-outlines.svg"
                 width={960}
                 height={380}
-                alt="logo"
+                alt="outline"
                 className="relative z-2"
               />
               <img
