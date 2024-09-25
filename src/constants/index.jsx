@@ -122,8 +122,8 @@ export const plans = [
       "5 projects",
       "24/7 support",
     ],
-    icon: "/images/circle.svg",
-    logo: "/images/plan-1.png",
+    icon: "/src/images/circle.svg",
+    logo: "/src/images/plan-1.png",
   },
   {
     id: "1",
@@ -137,8 +137,8 @@ export const plans = [
       "Unlimited projects",
       "Analytics",
     ],
-    icon: "/images/triangle.svg",
-    logo: "/images/plan-2.png",
+    icon: "/src/images/triangle.svg",
+    logo: "/src/images/plan-2.png",
   },
   {
     id: "2",
@@ -152,8 +152,8 @@ export const plans = [
       "50% off per member",
       "Real-time collaboration",
     ],
-    icon: "/images/hexagon.svg",
-    logo: "/images/plan-3.png",
+    icon: "/src/images/hexagon.svg",
+    logo: "/src/images/plan-3.png",
   },
 ];
 
