@@ -162,7 +162,7 @@ export const testimonials = [
     id: "0",
     name: "Jessica Saunders",
     role: "Globalnomads",
-    avatarUrl: "/images/testimonials/jessica-saunders.png",
+    avatarUrl: "/src/images/testimonials/jessica-saunders.png",
     comment:
       "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
   },
@@ -170,7 +170,7 @@ export const testimonials = [
     id: "1",
     name: "Mark Erixon",
     role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/mark-erixon.png",
+    avatarUrl: "/src/images/testimonials/mark-erixon.png",
     comment:
       "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
   },
@@ -178,7 +178,7 @@ export const testimonials = [
     id: "2",
     name: "Melanie Hurst",
     role: "Cyberleap",
-    avatarUrl: "/images/testimonials/melanie-hurst.png",
+    avatarUrl: "/src/images/testimonials/melanie-hurst.png",
     comment:
       "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
   },
@@ -186,7 +186,7 @@ export const testimonials = [
     id: "3",
     name: "Alicia Barker",
     role: "Cyberleap",
-    avatarUrl: "/images/testimonials/alicia-barker.png",
+    avatarUrl: "/src/images/testimonials/alicia-barker.png",
     comment:
       "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
   },
@@ -194,7 +194,7 @@ export const testimonials = [
     id: "4",
     name: "Becky Snider",
     role: "Floclips",
-    avatarUrl: "/images/testimonials/becky-snider.png",
+    avatarUrl: "/src/images/testimonials/becky-snider.png",
     comment:
       "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
   },
@@ -202,7 +202,7 @@ export const testimonials = [
     id: "5",
     name: "Jim Bradley",
     role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/jim-bradley.png",
+    avatarUrl: "/src/images/testimonials/jim-bradley.png",
     comment:
       "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
   },
@@ -212,35 +212,35 @@ export const logos = [
   {
     id: "0",
     title: "Afterpay",
-    url: "/images/logos/afterpay.svg",
+    url: "/src/images/logos/afterpay.svg",
     width: 156,
     height: 48,
   },
   {
     id: "1",
     title: "Amplitude",
-    url: "/images/logos/amplitude.svg",
+    url: "/src/images/logos/amplitude.svg",
     width: 194,
     height: 48,
   },
   {
     id: "2",
     title: "Sonos",
-    url: "/images/logos/sonos.svg",
+    url: "/src/images/logos/sonos.svg",
     width: 115,
     height: 48,
   },
   {
     id: "3",
     title: "Maze",
-    url: "/images/logos/maze.svg",
+    url: "/src/images/logos/maze.svg",
     width: 142,
     height: 48,
   },
   {
     id: "4",
     title: "Drips",
-    url: "/images/logos/drips.svg",
+    url: "/src/images/logos/drips.svg",
     width: 77,
     height: 48,
   },
@@ -405,25 +405,20 @@ export const socials = [
   {
     id: "0",
     title: "x",
-    icon: "/images/socials/x.svg",
+    icon: "/src/images/socials/x.svg",
     url: "#",
   },
-  {
-    id: "1",
-    title: "Threads",
-    icon: "/images/socials/threads.svg",
-    url: "#",
-  },
+
   {
     id: "2",
     title: "Instagram",
-    icon: "/images/socials/instagram.svg",
+    icon: "/src/images/socials/instagram.svg",
     url: "#",
   },
   {
     id: "3",
     title: "Discord",
-    icon: "/images/socials/discord.svg",
+    icon: "/src/images/socials/discord.svg",
     url: "#",
   },
 ];
