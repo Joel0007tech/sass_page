@@ -406,19 +406,18 @@ export const socials = [
     id: "0",
     title: "x",
     icon: "/src/images/socials/x.svg",
-    url: "#",
+    url: "https://x.com/_DevJo",
   },
-
+  {
+    id: "1",
+    title: "Threads",
+    icon: "/src/images/socials/threads.svg",
+    url: "https://www.threads.net/@_joelaj",
+  },
   {
     id: "2",
     title: "Instagram",
     icon: "/src/images/socials/instagram.svg",
-    url: "#",
-  },
-  {
-    id: "3",
-    title: "Discord",
-    icon: "/src/images/socials/discord.svg",
-    url: "#",
+    url: "https://www.instagram.com/_joelaj/",
   },
 ];
