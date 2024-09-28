@@ -26,7 +26,7 @@ const Hero = () => {
              max-lg:h2 max-md:mb-4
               max-md:text-5xl max-md:leading-12"
             >
-              Amazing simple
+              Amazingly simple
             </h1>
             <p
               className="mb-14 max-w-440
