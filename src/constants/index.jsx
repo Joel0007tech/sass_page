@@ -1,23 +1,23 @@
 export const features = [
   {
     id: "0",
-    icon: "/src/images/feature-1.png",
+    icon: "/src/assets/feature-1.png",
     caption: "Easy integration",
     title: "Work smarter not harder",
     text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
     button: {
-      icon: "/src/images/magictouch.svg",
+      icon: "/src/assets/magictouch.svg",
       title: "Watch the demo",
     },
   },
   {
     id: "1",
-    icon: "/src/images/feature-2.png",
+    icon: "/src/assets/feature-2.png",
     caption: "Secure & trustworthy",
     title: "Sleep easy, we got your back",
     text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
     button: {
-      icon: "/src/images/docs.svg",
+      icon: "/src/assets/docs.svg",
       title: "Read the docs",
     },
   },
@@ -26,22 +26,22 @@ export const features = [
 export const details = [
   {
     id: "0",
-    icon: "/src/images/detail-1.png",
+    icon: "/src/assets/detail-1.png",
     title: "AI automated video editing",
   },
   {
     id: "1",
-    icon: "/src/images/detail-2.png",
+    icon: "/src/assets/detail-2.png",
     title: "Collaborate with your team",
   },
   {
     id: "2",
-    icon: "/src/images/detail-3.png",
+    icon: "/src/assets/detail-3.png",
     title: "Ultra fast cloud-engine",
   },
   {
     id: "3",
-    icon: "/src/images/detail-4.png",
+    icon: "/src/assets/detail-4.png",
     title: "24 / 7 Customer support",
   },
 ];
@@ -122,8 +122,8 @@ export const plans = [
       "5 projects",
       "24/7 support",
     ],
-    icon: "/src/images/circle.svg",
-    logo: "/src/images/plan-1.png",
+    icon: "/src/assets/circle.svg",
+    logo: "/src/assets/plan-1.png",
   },
   {
     id: "1",
@@ -137,8 +137,8 @@ export const plans = [
       "Unlimited projects",
       "Analytics",
     ],
-    icon: "/src/images/triangle.svg",
-    logo: "/src/images/plan-2.png",
+    icon: "/src/assets/triangle.svg",
+    logo: "/src/assets/plan-2.png",
   },
   {
     id: "2",
@@ -152,8 +152,8 @@ export const plans = [
       "50% off per member",
       "Real-time collaboration",
     ],
-    icon: "/src/images/hexagon.svg",
-    logo: "/src/images/plan-3.png",
+    icon: "/src/assets/hexagon.svg",
+    logo: "/src/assets/plan-3.png",
   },
 ];
 
@@ -162,7 +162,7 @@ export const testimonials = [
     id: "0",
     name: "Jessica Saunders",
     role: "Globalnomads",
-    avatarUrl: "/src/images/testimonials/jessica-saunders.png",
+    avatarUrl: "/src/assets/testimonials/jessica-saunders.png",
     comment:
       "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
   },
@@ -170,7 +170,7 @@ export const testimonials = [
     id: "1",
     name: "Mark Erixon",
     role: "Vid capital intl",
-    avatarUrl: "/src/images/testimonials/mark-erixon.png",
+    avatarUrl: "/src/assets/testimonials/mark-erixon.png",
     comment:
       "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
   },
@@ -178,7 +178,7 @@ export const testimonials = [
     id: "2",
     name: "Melanie Hurst",
     role: "Cyberleap",
-    avatarUrl: "/src/images/testimonials/melanie-hurst.png",
+    avatarUrl: "/src/assets/testimonials/melanie-hurst.png",
     comment:
       "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
   },
@@ -186,7 +186,7 @@ export const testimonials = [
     id: "3",
     name: "Alicia Barker",
     role: "Cyberleap",
-    avatarUrl: "/src/images/testimonials/alicia-barker.png",
+    avatarUrl: "/src/assets/testimonials/alicia-barker.png",
     comment:
       "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
   },
@@ -194,7 +194,7 @@ export const testimonials = [
     id: "4",
     name: "Becky Snider",
     role: "Floclips",
-    avatarUrl: "/src/images/testimonials/becky-snider.png",
+    avatarUrl: "/src/assets/testimonials/becky-snider.png",
     comment:
       "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
   },
@@ -202,7 +202,7 @@ export const testimonials = [
     id: "5",
     name: "Jim Bradley",
     role: "Vid capital intl",
-    avatarUrl: "/src/images/testimonials/jim-bradley.png",
+    avatarUrl: "/src/assets/testimonials/jim-bradley.png",
     comment:
       "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
   },
@@ -212,35 +212,35 @@ export const logos = [
   {
     id: "0",
     title: "Afterpay",
-    url: "/src/images/logos/afterpay.svg",
+    url: "/src/assets/logos/afterpay.svg",
     width: 156,
     height: 48,
   },
   {
     id: "1",
     title: "Amplitude",
-    url: "/src/images/logos/amplitude.svg",
+    url: "/src/assets/logos/amplitude.svg",
     width: 194,
     height: 48,
   },
   {
     id: "2",
     title: "Sonos",
-    url: "/src/images/logos/sonos.svg",
+    url: "/src/assets/logos/sonos.svg",
     width: 115,
     height: 48,
   },
   {
     id: "3",
     title: "Maze",
-    url: "/src/images/logos/maze.svg",
+    url: "/src/assets/logos/maze.svg",
     width: 142,
     height: 48,
   },
   {
     id: "4",
     title: "Drips",
-    url: "/src/images/logos/drips.svg",
+    url: "/src/assets/logos/drips.svg",
     width: 77,
     height: 48,
   },
@@ -405,19 +405,19 @@ export const socials = [
   {
     id: "0",
     title: "x",
-    icon: "/src/images/socials/x.svg",
+    icon: "/src/assets/socials/x.svg",
     url: "https://x.com/_DevJo",
   },
   {
     id: "1",
     title: "Threads",
-    icon: "/src/images/socials/threads.svg",
+    icon: "/src/assets/socials/threads.svg",
     url: "https://www.threads.net/@_joelaj",
   },
   {
     id: "2",
     title: "Instagram",
-    icon: "/src/images/socials/instagram.svg",
+    icon: "/src/assets/socials/instagram.svg",
     url: "https://www.instagram.com/_joelaj/",
   },
 ];

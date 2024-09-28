@@ -18,7 +18,7 @@ const Download = () => {
             >
               <div className="mb-10">
                 <img
-                  src="/src/images/xora.svg"
+                  src="/src/assets/xora.svg"
                   width={160}
                   height={55}
                   alt="logo"
@@ -50,7 +50,7 @@ const Download = () => {
                         <Marker />
                       </span>
                       <img
-                        src={"/src/images/lines.svg"}
+                        src={"/src/assets/lines.svg"}
                         alt="lines"
                         className="absolute size=13/20 object-contain"
                       />
@@ -76,7 +76,7 @@ const Download = () => {
                   <span className="download_preview-dot left-16 bg-p1/15" />
 
                   <img
-                    src="/src/images/screen.jpg"
+                    src="/src/assets/screen.jpg"
                     width={855}
                     height={655}
                     alt="screen"
