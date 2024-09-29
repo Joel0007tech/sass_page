@@ -1,26 +1,28 @@
-import iconView from "../assets/feature-1.png";
-import iconMagic from "../assets/magictouch.svg"
+import featureOneLogo from "../assets/feature-1.png";
+import featureOneIcon from "../assets/magictouch.svg";
+import featureTwoLogo from "../assets/feature-2.png";
+import featureTwoIcon from "../assets/docs.svg"
 
 export const features = [
   {
     id: "0",
-    icon:iconView,
+    icon:featureOneLogo,
     caption: "Easy integration",
     title: "Work smarter not harder",
     text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
     button: {
-      icon: iconMagic,
+      icon:featureOneIcon,
       title: "Watch the demo",
     },
   },
   {
     id: "1",
-    icon: "/src/assets/feature-2.png",
+    icon: featureTwoLogo,
     caption: "Secure & trustworthy",
     title: "Sleep easy, we got your back",
     text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
     button: {
-      icon: "/src/assets/docs.svg",
+      icon:featureTwoIcon,
       title: "Read the docs",
     },
   },
