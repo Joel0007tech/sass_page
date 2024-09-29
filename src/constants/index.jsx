@@ -1,7 +1,11 @@
 import featureOneLogo from "../assets/feature-1.png";
 import featureOneIcon from "../assets/magictouch.svg";
 import featureTwoLogo from "../assets/feature-2.png";
-import featureTwoIcon from "../assets/docs.svg"
+import featureTwoIcon from "../assets/docs.svg";
+import detailAI from "../assets/detail-1.png";
+import detailTeam from "../assets/detail-2.png";
+import detailCollaborator from "../assets/detail-3.png";
+import detailSupport from "../assets/detail-4.png";
 
 export const features = [
   {
@@ -31,22 +35,22 @@ export const features = [
 export const details = [
   {
     id: "0",
-    icon: "/src/assets/detail-1.png",
+    icon: detailAI,
     title: "AI automated video editing",
   },
   {
     id: "1",
-    icon: "/src/assets/detail-2.png",
+    icon: detailTeam,
     title: "Collaborate with your team",
   },
   {
     id: "2",
-    icon: "/src/assets/detail-3.png",
+    icon: detailCollaborator,
     title: "Ultra fast cloud-engine",
   },
   {
     id: "3",
-    icon: "/src/assets/detail-4.png",
+    icon:detailSupport,
     title: "24 / 7 Customer support",
   },
 ];
