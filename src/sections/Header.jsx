@@ -1,7 +1,7 @@
 import { Link as LinkScroll } from "react-scroll";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
-import logo from "./src/assets/xora.svg"
+import logo from "/src/assets/xora.svg"
 
 const Header = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
