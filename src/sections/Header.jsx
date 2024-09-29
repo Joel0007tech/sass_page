@@ -1,6 +1,7 @@
 import { Link as LinkScroll } from "react-scroll";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
+import logo from "./src/assets/xora.svg"
 
 const Header = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -42,7 +43,7 @@ const Header = () => {
     >
       <div className="container flex h-14 items-center max-lg:px-5">
         <a className="lg:hidden flex-1 cursor-pointer z-2">
-          <img src="/src/assets/xora.svg" width={115} height={55} alt="logo" />
+          <img src={logo} width={115} height={55} alt="logo-top" />
         </a>
 
         <div
