@@ -1,12 +1,15 @@
+import iconView from "../assets/feature-1.png";
+import iconMagic from "../assets/magictouch.svg"
+
 export const features = [
   {
     id: "0",
-    icon: "/src/assets/feature-1.png",
+    icon:iconView,
     caption: "Easy integration",
     title: "Work smarter not harder",
     text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
     button: {
-      icon: "/src/assets/magictouch.svg",
+      icon: iconMagic,
       title: "Watch the demo",
     },
   },
