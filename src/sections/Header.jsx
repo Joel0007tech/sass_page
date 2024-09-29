@@ -3,7 +3,8 @@ import { useEffect, useState } from "react";
 import clsx from "clsx";
 import logo from "../assets/xora.svg";
 import bgOutline from "../assets/bg-outlines.svg";
-import bgOutlineFill from "../assets/bg-outlines-fill.png"
+import bgOutlineFill from "../assets/bg-outlines-fill.png";
+import navLogo from "../assets/magic.svg"
 
 const Header = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -114,7 +115,7 @@ const Header = () => {
           onClick={() => setIsOpen((prevState) => !prevState)}
         >
           <img
-            src={logo}
+            src={navLogo}
             alt="magic"
             className="size-1/2 object-contain"
           />
