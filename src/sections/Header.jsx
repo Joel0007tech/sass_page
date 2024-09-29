@@ -114,7 +114,7 @@ const Header = () => {
           onClick={() => setIsOpen((prevState) => !prevState)}
         >
           <img
-            src={`/src/assets/${isOpen ? "close" : "magic"}.svg`}
+            src={logo}
             alt="magic"
             className="size-1/2 object-contain"
           />
