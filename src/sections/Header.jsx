@@ -1,7 +1,9 @@
 import { Link as LinkScroll } from "react-scroll";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
-import logo from "../assets/xora.svg"
+import logo from "../assets/xora.svg";
+import bgOutline from "../assets/bg-outlines.svg";
+import bgOutlineFill from "../assets/bg-outlines-fill.png"
 
 const Header = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -90,14 +92,14 @@ const Header = () => {
 
             <div className="lg:hidden block absolute top-1/2 left-0 w-[960px] h-[380px] translate-x-[-290px] -translate-y-1/2 rotate-90">
               <img
-                src="/src/assets/bg-outlines.svg"
+                src={bgOutline}
                 width={960}
                 height={380}
                 alt="outline"
                 className="relative z-2"
               />
               <img
-                src="/src/assets/bg-outlines-fill.png"
+                src={bgOutlineFill}
                 width={960}
                 height={380}
                 alt="outline"
