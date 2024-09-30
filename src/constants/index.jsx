@@ -14,7 +14,7 @@ import teamIcon from "../assets/hexagon.svg";
 import teamLogo from "../assets/plan-3.png";
 import jessica from "../assets/testimonials/jessica-saunders.png";
 import mark from "../assets/testimonials/mark-erixon.png";
-import melanie from "..assets/testimonials/melanie-hurst.png";
+import melanie from "../assets/testimonials/melanie-hurst.png";
 import alicia from "../assets/testimonials/alicia-barker.png";
 import becky from "../assets/testimonials/becky-snider.png"
 import jim from "../assets/testimonials/jim-bradley.png"
