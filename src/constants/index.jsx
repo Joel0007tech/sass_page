@@ -18,7 +18,7 @@ import melanie from "../assets/testimonials/melanie-hurst.png";
 import alicia from "../assets/testimonials/alicia-barker.png";
 import becky from "../assets/testimonials/becky-snider.png"
 import jim from "../assets/testimonials/jim-bradley.png"
-import afterPay from "../src/assets/logos/afterpay.svg"
+import afterPay from "../assets/logos/afterpay.svg"
 import amplitude from "../assets/logos/amplitude.svg";
 import sonos from "../assets/logos/sonos.svg";
 import maze from "../assets/logos/maze.svg";
