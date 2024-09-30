@@ -18,11 +18,14 @@ import melanie from "../assets/testimonials/melanie-hurst.png";
 import alicia from "../assets/testimonials/alicia-barker.png";
 import becky from "../assets/testimonials/becky-snider.png"
 import jim from "../assets/testimonials/jim-bradley.png"
-import afterPay from "..//src/assets/logos/afterpay.svg"
+import afterPay from "../src/assets/logos/afterpay.svg"
 import amplitude from "../assets/logos/amplitude.svg";
 import sonos from "../assets/logos/sonos.svg";
 import maze from "../assets/logos/maze.svg";
-import drips from "../assets/logos/drips.svg"
+import drips from "../assets/logos/drips.svg";
+import instagram from "../assets/socials/instagram.svg";
+import threads from "../assets/socials/threads.svg";
+import twitter from "../assets/socials/x.svg"
 
 export const features = [
   {
@@ -431,19 +434,19 @@ export const socials = [
   {
     id: "0",
     title: "x",
-    icon: "/src/assets/socials/x.svg",
+    icon: twitter,
     url: "https://x.com/_DevJo",
   },
   {
     id: "1",
     title: "Threads",
-    icon: "/src/assets/socials/threads.svg",
-    url: "https://www.threads.net/@_joelaj",
+    icon: threads,
+    url: "https://joel-folio.vercel.app/",
   },
   {
     id: "2",
     title: "Instagram",
-    icon: "/src/assets/socials/instagram.svg",
+    icon: instagram,
     url: "https://www.instagram.com/_joelaj/",
   },
 ];
