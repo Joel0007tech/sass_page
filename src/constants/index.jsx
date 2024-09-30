@@ -6,6 +6,12 @@ import detailAI from "../assets/detail-1.png";
 import detailTeam from "../assets/detail-2.png";
 import detailCollaborator from "../assets/detail-3.png";
 import detailSupport from "../assets/detail-4.png";
+import coreIcon from "../assets/circle.svg";
+import coreLogo from "../assets/plan-1.png";
+import overdriveIcon from "../assets/triangle.svg";
+import overdriveLogo from "../assets/plan-2.png";
+import teamIcon from "../assets/hexagon.svg";
+import teamLogo from "../assets/plan-3.png"
 
 export const features = [
   {
@@ -131,8 +137,8 @@ export const plans = [
       "5 projects",
       "24/7 support",
     ],
-    icon: "/src/assets/circle.svg",
-    logo: "/src/assets/plan-1.png",
+    icon: coreIcon,
+    logo :coreLogo,
   },
   {
     id: "1",
@@ -146,8 +152,8 @@ export const plans = [
       "Unlimited projects",
       "Analytics",
     ],
-    icon: "/src/assets/triangle.svg",
-    logo: "/src/assets/plan-2.png",
+    icon: overdriveIcon,
+    logo: overdriveLogo
   },
   {
     id: "2",
@@ -161,8 +167,8 @@ export const plans = [
       "50% off per member",
       "Real-time collaboration",
     ],
-    icon: "/src/assets/hexagon.svg",
-    logo: "/src/assets/plan-3.png",
+    icon: teamIcon,
+    logo: teamLogo,
   },
 ];
 
