@@ -18,8 +18,11 @@ import melanie from "../assets/testimonials/melanie-hurst.png";
 import alicia from "../assets/testimonials/alicia-barker.png";
 import becky from "../assets/testimonials/becky-snider.png"
 import jim from "../assets/testimonials/jim-bradley.png"
-
-
+import afterPay from "..//src/assets/logos/afterpay.svg"
+import amplitude from "../assets/logos/amplitude.svg";
+import sonos from "../assets/logos/sonos.svg";
+import maze from "../assets/logos/maze.svg";
+import drips from "../assets/logos/drips.svg"
 
 export const features = [
   {
@@ -235,35 +238,35 @@ export const logos = [
   {
     id: "0",
     title: "Afterpay",
-    url: "/src/assets/logos/afterpay.svg",
+    url: afterPay,
     width: 156,
     height: 48,
   },
   {
     id: "1",
     title: "Amplitude",
-    url: "/src/assets/logos/amplitude.svg",
+    url: amplitude,
     width: 194,
     height: 48,
   },
   {
     id: "2",
     title: "Sonos",
-    url: "/src/assets/logos/sonos.svg",
+    url: sonos,
     width: 115,
     height: 48,
   },
   {
     id: "3",
     title: "Maze",
-    url: "/src/assets/logos/maze.svg",
+    url: maze,
     width: 142,
     height: 48,
   },
   {
     id: "4",
     title: "Drips",
-    url: "/src/assets/logos/drips.svg",
+    url: drips,
     width: 77,
     height: 48,
   },
